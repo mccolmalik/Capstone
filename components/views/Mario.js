@@ -1,2 +1,4 @@
 import html from "html-literal";
-<section id=""></section>
+<p>
+  MArio is a classic game that we all have played at least in our life.
+</p>
