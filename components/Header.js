@@ -1,6 +1,7 @@
-import html from "html-literal"
+import html from "html-literal";
 
-export default () => html`
-<header>
-  <h1>Donkey Talk${state.header}</h1>
-</header>`
+export default state => html`
+  <header>
+    <h1>Donkey Talk${state.header}</h1>
+  </header>
+`;
