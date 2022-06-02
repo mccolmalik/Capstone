@@ -1,3 +1,7 @@
 import html from "html-literal";
-
-export default () => html;
+let year = new Date().getFullYear();
+export default () => html`
+  <footer>
+    &copy;${year}
+  </footer>
+`;

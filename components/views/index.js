@@ -1,4 +1,5 @@
-export { default as header } from "./Header";
-export { default as Nav } from "./Nav";
-export { default as Main } from "./Main";
-export { default as Footer } from "./Footer";
+export { default as Yugioh } from "./Yugioh";
+export { default as Mario } from "./Mario";
+export { default as Forhonor } from "./Forhonor";
+export { default as About } from "./About";
+export { default as Home } from "./Home";

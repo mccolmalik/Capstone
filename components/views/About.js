@@ -1,4 +1,4 @@
-import html from "html-literal"
+import html from "html-literal";
 export default () => html`
 <>
 Hi My name is Malik Mcollum I am 22 years old and an avid gamer.
