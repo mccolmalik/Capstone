@@ -6,5 +6,4 @@ export default () => html`
   turn for all you know your opponent may have already made it so that there is no way for you to attain victory.
   And if you've played you know that these meta players have no real skill since they play the exact same decks as people
   in the highest ranks. This is Yugioh Master Duel.
-</p></>
-<img src="${}" alt="me" />`;
+</p></>`;
