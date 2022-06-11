@@ -1,5 +1,4 @@
 import html from "html-literal";
-import honorPic from "../../assets/image/forHonor.png";
 export default () => html`
   <section>
     <p>
@@ -10,6 +9,5 @@ export default () => html`
       jumped by three people at the same time. All the same it's a pretty
       entertaining game.
     </p>
-    <img src="honorPic" />
   </section>
 `;
