@@ -10,6 +10,6 @@ export default () => html`
       jumped by three people at the same time. All the same it's a pretty
       entertaining game.
     </p>
-    <img src="${forHonor}" />
+    <img src="${forHonor} alt="me" />
   </section>
 `;
