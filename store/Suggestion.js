@@ -1,4 +1,4 @@
 export default {
   header: "Make a suggestion",
-  view: "About"
+  view: "Suggestion"
 };
