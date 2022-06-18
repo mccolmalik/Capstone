@@ -1,5 +1,5 @@
 import html from "html-literal";
-import yugi from "../../assets/image/yugi.png";
+import yugi from "../../assets/image/Yugi.png";
 export default () => html`
   <section>
     <h1>Yugioh Master Duel</h1>
@@ -12,6 +12,6 @@ export default () => html`
       no real skill since they play the exact same decks as people in the
       highest ranks. This is Yugioh Master Duel.
     </p>
-    <img src= "${yugi} alt="me"
+    <img src= "${yugi} alt="me">
   </section>
 `;

@@ -3,8 +3,8 @@ const Pizza = require("../models/Pizza");
 const router = Router();
 
 router.post("/", (request, response) => {
-  const newSuggestion = new Suggestion(request.body);
-  newSuggestion.save((error, record) => {
+  const newPizza = new Pizza(request.body);
+  newPizza.save((error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -12,7 +12,7 @@ router.post("/", (request, response) => {
 
 // Get (read) all records from the collection
 router.get("/", (request, response) => {
-  Suggestion.find({}, (error, record) => {
+  Pizza.find({}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -38,6 +38,14 @@ router.put("/:id", (request, response) => {
   Pizza.findByIdAndUpdate(
     request.params.id,
     {
+      $set: {
+        // Take note that the customer is not included, so it can't
+        crust: body.crust,
+        cheese: body.cheese,
+        sauce: body.sauce,
+        toppings: body.toppings
+      }
+    },
     {
       new: true,
       upsert: true
